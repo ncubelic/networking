@@ -2,12 +2,14 @@
 Simple networking with error handling
 
 ## How to use
-1. Create Resource
+1. Change API base path in Info.plist
+
+2. Create Resource
 ``` swift
   let resource = Resource<String>(path: "/test-path", method: .POST)
 ```
 
-2. Create NetworkManager and execute apiCall
+3. Create NetworkManager and execute apiCall
 ``` swift
   let networkManger = NetworkManager()
   networkManger.apiCall(for: resource) { result in
