@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		2D28FD42231AC0F000199992 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD41231AC0F000199992 /* AppDelegate.swift */; };
-		2D28FD44231AC0F000199992 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD43231AC0F000199992 /* ViewController.swift */; };
-		2D28FD47231AC0F000199992 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28FD45231AC0F000199992 /* Main.storyboard */; };
 		2D28FD49231AC0F100199992 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D28FD48231AC0F100199992 /* Assets.xcassets */; };
 		2D28FD4C231AC0F100199992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D28FD4A231AC0F100199992 /* LaunchScreen.storyboard */; };
 		2D28FD57231AC0F100199992 /* NetworkingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD56231AC0F100199992 /* NetworkingTests.swift */; };
+		2D28FD68231B05A800199992 /* UIAlertController+ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD62231B05A700199992 /* UIAlertController+ErrorHandler.swift */; };
+		2D28FD69231B05A800199992 /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD63231B05A700199992 /* AlertModel.swift */; };
+		2D28FD6A231B05A800199992 /* ErrorReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD64231B05A700199992 /* ErrorReport.swift */; };
+		2D28FD6B231B05A800199992 /* Cause.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD65231B05A800199992 /* Cause.swift */; };
+		2D28FD6C231B05A800199992 /* PreconditionFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD66231B05A800199992 /* PreconditionFailed.swift */; };
+		2D28FD6D231B05A800199992 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD67231B05A800199992 /* ErrorHandler.swift */; };
+		2D28FD75231B060D00199992 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD6F231B060C00199992 /* Resource.swift */; };
+		2D28FD76231B060D00199992 /* URL+NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD70231B060C00199992 /* URL+NetworkManager.swift */; };
+		2D28FD77231B060D00199992 /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD71231B060C00199992 /* NetworkConstants.swift */; };
+		2D28FD78231B060D00199992 /* Data+NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD72231B060C00199992 /* Data+NetworkManager.swift */; };
+		2D28FD79231B060D00199992 /* NetworkConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD73231B060D00199992 /* NetworkConfiguration.swift */; };
+		2D28FD7A231B060D00199992 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D28FD74231B060D00199992 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +38,24 @@
 /* Begin PBXFileReference section */
 		2D28FD3E231AC0F000199992 /* Networking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Networking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D28FD41231AC0F000199992 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D28FD43231AC0F000199992 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2D28FD46231AC0F000199992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D28FD48231AC0F100199992 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D28FD4B231AC0F100199992 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D28FD4D231AC0F100199992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D28FD52231AC0F100199992 /* NetworkingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D28FD56231AC0F100199992 /* NetworkingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingTests.swift; sourceTree = "<group>"; };
 		2D28FD58231AC0F100199992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D28FD62231B05A700199992 /* UIAlertController+ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+ErrorHandler.swift"; sourceTree = "<group>"; };
+		2D28FD63231B05A700199992 /* AlertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
+		2D28FD64231B05A700199992 /* ErrorReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorReport.swift; sourceTree = "<group>"; };
+		2D28FD65231B05A800199992 /* Cause.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cause.swift; sourceTree = "<group>"; };
+		2D28FD66231B05A800199992 /* PreconditionFailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreconditionFailed.swift; sourceTree = "<group>"; };
+		2D28FD67231B05A800199992 /* ErrorHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		2D28FD6F231B060C00199992 /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		2D28FD70231B060C00199992 /* URL+NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+NetworkManager.swift"; sourceTree = "<group>"; };
+		2D28FD71231B060C00199992 /* NetworkConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		2D28FD72231B060C00199992 /* Data+NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+NetworkManager.swift"; sourceTree = "<group>"; };
+		2D28FD73231B060D00199992 /* NetworkConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfiguration.swift; sourceTree = "<group>"; };
+		2D28FD74231B060D00199992 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				2D28FD41231AC0F000199992 /* AppDelegate.swift */,
-				2D28FD43231AC0F000199992 /* ViewController.swift */,
-				2D28FD45231AC0F000199992 /* Main.storyboard */,
-				2D28FD48231AC0F100199992 /* Assets.xcassets */,
-				2D28FD4A231AC0F100199992 /* LaunchScreen.storyboard */,
-				2D28FD4D231AC0F100199992 /* Info.plist */,
+				2D28FD7B231B062100199992 /* NetworkManager */,
+				2D28FD6E231B05B500199992 /* ErrorHandler */,
+				2D28FD61231AC38B00199992 /* Supporting files */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -94,6 +112,42 @@
 				2D28FD58231AC0F100199992 /* Info.plist */,
 			);
 			path = NetworkingTests;
+			sourceTree = "<group>";
+		};
+		2D28FD61231AC38B00199992 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				2D28FD48231AC0F100199992 /* Assets.xcassets */,
+				2D28FD4A231AC0F100199992 /* LaunchScreen.storyboard */,
+				2D28FD4D231AC0F100199992 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		2D28FD6E231B05B500199992 /* ErrorHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2D28FD63231B05A700199992 /* AlertModel.swift */,
+				2D28FD65231B05A800199992 /* Cause.swift */,
+				2D28FD67231B05A800199992 /* ErrorHandler.swift */,
+				2D28FD64231B05A700199992 /* ErrorReport.swift */,
+				2D28FD66231B05A800199992 /* PreconditionFailed.swift */,
+				2D28FD62231B05A700199992 /* UIAlertController+ErrorHandler.swift */,
+			);
+			path = ErrorHandler;
+			sourceTree = "<group>";
+		};
+		2D28FD7B231B062100199992 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				2D28FD72231B060C00199992 /* Data+NetworkManager.swift */,
+				2D28FD73231B060D00199992 /* NetworkConfiguration.swift */,
+				2D28FD71231B060C00199992 /* NetworkConstants.swift */,
+				2D28FD74231B060D00199992 /* NetworkManager.swift */,
+				2D28FD6F231B060C00199992 /* Resource.swift */,
+				2D28FD70231B060C00199992 /* URL+NetworkManager.swift */,
+			);
+			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +233,6 @@
 			files = (
 				2D28FD4C231AC0F100199992 /* LaunchScreen.storyboard in Resources */,
 				2D28FD49231AC0F100199992 /* Assets.xcassets in Resources */,
-				2D28FD47231AC0F000199992 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +250,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D28FD44231AC0F000199992 /* ViewController.swift in Sources */,
+				2D28FD6C231B05A800199992 /* PreconditionFailed.swift in Sources */,
+				2D28FD75231B060D00199992 /* Resource.swift in Sources */,
+				2D28FD77231B060D00199992 /* NetworkConstants.swift in Sources */,
+				2D28FD7A231B060D00199992 /* NetworkManager.swift in Sources */,
+				2D28FD6D231B05A800199992 /* ErrorHandler.swift in Sources */,
+				2D28FD68231B05A800199992 /* UIAlertController+ErrorHandler.swift in Sources */,
+				2D28FD6B231B05A800199992 /* Cause.swift in Sources */,
+				2D28FD76231B060D00199992 /* URL+NetworkManager.swift in Sources */,
+				2D28FD69231B05A800199992 /* AlertModel.swift in Sources */,
+				2D28FD78231B060D00199992 /* Data+NetworkManager.swift in Sources */,
+				2D28FD6A231B05A800199992 /* ErrorReport.swift in Sources */,
 				2D28FD42231AC0F000199992 /* AppDelegate.swift in Sources */,
+				2D28FD79231B060D00199992 /* NetworkConfiguration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +285,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2D28FD45231AC0F000199992 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D28FD46231AC0F000199992 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2D28FD4A231AC0F100199992 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2XRR59CY6S;
-				INFOPLIST_FILE = Networking/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Networking/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -380,7 +436,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2XRR59CY6S;
-				INFOPLIST_FILE = Networking/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Networking/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
